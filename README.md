@@ -146,7 +146,7 @@ class Component {
   }
 }
 
-class Page extends Component {
+class Page extends Component<string> {
   pageInfo () {
     console.log(this.props.title);
   }
